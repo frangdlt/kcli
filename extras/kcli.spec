@@ -5,7 +5,7 @@
 #
 
 Name:           kcli
-Version:        14.3
+Version:        15.5
 Release:        1
 Url:            http://github.com/karmab/kcli
 Summary:        Wapper for libvirt,gcp,aws,ovirt and openstack
@@ -58,7 +58,9 @@ rm -rf %{buildroot}
 %attr(0755,root,root) %{_bindir}/kweb
 
 %changelog
-* Sat Jan 19 2018 Karim Boumedhel <karimboumedhel@gmail.com> 14.3
+* Wed Apr 03 2019 Fran Garcia <fran@caosdigital.com> 15.5
+- 15.5 test build
+* Sat Jan 19 2019 Karim Boumedhel <karimboumedhel@gmail.com> 14.3
 - 14.3 Release with remediation, baseplans and kubernetes support
 * Thu Dec 20 2018 Karim Boumedhel <karimboumedhel@gmail.com> 14.1
 - 14.1 Release with a bunch of goodies
