@@ -27,7 +27,7 @@ def render(args):
     overrides = get_overrides(paramfile=args.paramfile, param=args.param)
     parameters = get_parameters(inputfile)
     if parameters is not None:
-        parameters = yaml.load(parameters)['parameters']
+        parameters = yaml.full_load(parameters)['parameters']
         numparameters = len(parameters)
         for parameter in parameters:
             if parameter not in overrides:
